@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+}
+
+* html #tudo {
+  height: 100%;
+  min-height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  overflow-y: hidden;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #fff !important;
+  overflow-x: hidden;
+  backface-visibility: hidden;
+  font-family: $font;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#tudo {
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}
+
+.control {
+  max-width: 1080px;
+  margin: 0 auto;
+  @include mq(tablet-wide, max) {
+    padding: 0 $md;
+  }
+}
+
+.line{
+  display: block;
+  position: relative;
+  min-width: 100%;
+}
+
+.p-absolute{
+  position: absolute;
+}
+
+section {
+  float: left;
+  width: 100%;
+}
+
+.clear,
+.clearfix {
+  clear: both;
+}
+
+.section {
+  float: left;
+  width: 100%;
+  margin-bottom: $lg;
+
+  @include mq(tablet, max) {
+    min-height: 100vh;
+  }
+
+  @include mq(tablet, min) {
+    float: none;
+    height: 100vh;
+    margin-bottom: $lg;
+  }
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+#conteudo {
+  padding-bottom: 100px;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  @include mq(tablet-wide, min) {
+    padding-bottom: 306px;
+  }
+}
+
+#conteudo-interno {
+  padding-top: 100px;
+
+  @include mq(tablet-wide, min) {
+    padding-bottom: 244px;
+  }
+}
+
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-moz-placeholder,
+:-ms-input-placeholder {
+  color: #b5bcca;
+  font-family: $font;
+  font-weight: 300;
+}
+
+hr {
+  background: $cinza-claro;
+  width: 100%;
+  height: 1px;
+  border: none;
+}
+
+.slick-arrow {
+  &.slick-prev {
+    left: $lg !important;
+    z-index: 1;
+
+    &:before {
+      font-size: 30px;
+      color: #fff;
+      content: "\f137";
+      font-family: "FontAwesome";
+    }
+  }
+
+  &.slick-next {
+    right: $lg !important;
+    z-index: 1;
+
+    &:before {
+      font-size: 30px;
+      color: #fff;
+      content: "\f138";
+      font-family: "FontAwesome";
+    }
+  }
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $cinza-claro1;
+  border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $cinza-medio;
+  transition: all linear 0.2s;
+}

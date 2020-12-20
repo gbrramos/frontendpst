@@ -1,0 +1,26 @@
+#login_home{
+    height: 100vh;
+    .image{
+        margin: 140px 0;
+        img{
+            width: 500px;
+            vertical-align: middle;
+        }
+    }
+
+    .form_login{
+        width: 400px;
+        bottom: 100px;
+        label{
+            font-size: 16px;
+        }
+        input{
+            height: 40px;
+        }
+        a, button{
+            font-size: 14px;
+            font-weight: 500;
+        }
+       
+    }
+}
