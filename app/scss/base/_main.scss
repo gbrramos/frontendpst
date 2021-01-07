@@ -16,7 +16,9 @@
 
 ul,
 ol {
+  li{
   list-style: none;
+}
 }
 
 html {
@@ -36,7 +38,7 @@ body {
   backface-visibility: hidden;
   font-family: $font;
   -webkit-font-smoothing: antialiased;
-  color: #fff;
+  color: #000;
 }
 
 img {
@@ -140,12 +142,11 @@ hr {
   &.slick-prev {
     left: $lg !important;
     z-index: 1;
-
     &:before {
       font-size: 30px;
       color: #fff;
       content: "\f137";
-      font-family: "FontAwesome";
+      font-family: $fa-font-path;
     }
   }
 

@@ -24,7 +24,7 @@ var gulp           = require('gulp'),
       imgDir: './img'
     };
 
-var nameProject = 'tccmaker';
+var nameProject = 'frontpst';
 // Static Server + watching html/css files
 
 gulp.task('watch', ['sass', 'scripts', 'browser-sync'], function() {

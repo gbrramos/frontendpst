@@ -1,5 +1,5 @@
 {
-  "name": "tccmaker",
+  "name": "frontpst",
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js"
@@ -26,7 +26,6 @@
     "gulp-watch": "4.3.5",
     "magnific-popup": "^1.1.0",
     "moment": "^2.18.1",
-    "node.js": "0.0.0",
     "slick-carousel": "1.6.0"
   },
   "engines": {

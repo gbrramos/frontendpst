@@ -11,6 +11,10 @@
 @import 'base/main';
 @import 'base/modal';
 @import 'base/buttons';
+@import 'base/header';
+
 
 // Models
-@import 'models/login';
+@import 'models/header';
+@import 'models/nav';
+@import 'models/slick';

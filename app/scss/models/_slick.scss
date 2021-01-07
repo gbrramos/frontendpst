@@ -1,0 +1,28 @@
+.banner-slick {
+
+    // Codes
+    .banner {
+        img {
+            width: 100vw;
+        }
+    }
+}
+
+.arrow {
+    display: inline-block !important;
+    font-size: 24px;
+    position: absolute;
+    z-index: 99;
+    color: #FFF;
+
+    &.arrow-prev {
+        left: 5%;
+        top: 45%;
+
+    }
+
+    &.arrow-next {
+        right: 5%;
+        bottom: 49.5%;
+    }
+}
