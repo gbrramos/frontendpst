@@ -1,0 +1,49 @@
+footer {
+    background: $cinza-medio;
+    width: 100%;
+    position: relative;
+    padding: 30px 0;
+
+    img {
+        position: absolute;
+        width: 17%;
+        left: 10px;
+        opacity: .2;
+        transform: scaleX(-1);
+        bottom: -20px;
+        z-index: 1;
+    }
+
+    ul {
+        position: relative;
+        z-index: 2;
+
+        li {
+            width: 30%;
+            display: inline-block;
+            position: relative;
+            padding: 0 100px;
+            &::after{
+                position: absolute;
+                background-color: #fff;
+                content: '';
+                width: 2px;
+                height: 100%;
+                right: 0px;
+                top: 0;
+            }
+            h3 {
+                color: #fff;
+            }
+
+            p {
+                color: #fff;
+            }
+            a{
+                color: #fff;
+                font-size: 44px;
+                margin: 11px;
+            }
+        }
+    }
+}

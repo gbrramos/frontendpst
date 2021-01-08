@@ -1,0 +1,40 @@
+.icons-dash {
+    margin-top: 150px;
+
+    ul {
+        text-align: center;
+
+        li {
+            width: 33%;
+            text-align: center;
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 0;
+            border-radius: 20px;
+
+            &:hover{
+                background: $vermelho;
+                transition: 0.2s all linear;
+                a{
+                    color: #fff;
+                    transition: 0.2s all linear;
+
+                }
+            }
+            a {
+                text-decoration: none;
+                color: #000;
+
+                i {
+                    font-size: 100px;
+                    display: inline-block;
+                }
+
+                p {
+                    margin-top: 40px;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}
