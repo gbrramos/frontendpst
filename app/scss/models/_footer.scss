@@ -3,11 +3,11 @@ footer {
     width: 100%;
     position: relative;
     padding: 30px 0;
-
+    height: 200px;
     img {
         position: absolute;
         width: 17%;
-        left: 10px;
+        left: -10px;
         opacity: .2;
         transform: scaleX(-1);
         bottom: -20px;
@@ -23,7 +23,8 @@ footer {
             display: inline-block;
             position: relative;
             padding: 0 100px;
-            &::after{
+            height: 140px;
+            &::after {
                 position: absolute;
                 background-color: #fff;
                 content: '';
@@ -32,18 +33,38 @@ footer {
                 right: 0px;
                 top: 0;
             }
-            h3 {
+            &:last-child{
+                text-align: center;
+                iframe{
+                    display: inline-block;
+                    margin-top: 40px;
+                }
+                &::after{
+                    display: none;
+                }
+            }
+
+            h3,h4 {
                 color: #fff;
             }
 
             p {
                 color: #fff;
             }
-            a{
+
+            a {
                 color: #fff;
                 font-size: 44px;
-                margin: 11px;
+                margin: 30px;
+            }
+            .content-social{
+                padding: 40px 0;
+                text-align: center;
             }
         }
     }
+}
+
+._3ixn{
+   display: none !important;
 }

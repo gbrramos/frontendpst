@@ -1,0 +1,27 @@
+.youtube-api {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+    .youtube-btn {
+        margin-top: 10px;
+
+        a {
+            color: $cinza-escuro;
+            text-decoration: none;
+            font-family: $alegraya;
+            padding: 5px;
+            border-radius: 5px;
+            transition: 0.2s all linear;
+
+            &:hover{
+                color: $branco;
+                background-color: $cinza-medio;
+                transition: 0.2s all linear;
+            }
+        }
+
+        i {
+            margin-right: 5px;
+        }
+    }
+}

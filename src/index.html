@@ -46,12 +46,20 @@
                 </div>
             </div>
             <div class="control">
+                <div class="youtube-api">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aKfr-3iQzDs" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p class="youtube-btn"><a href=""><i class="fab fa-youtube"></i><span>Acesse nosso
+                                Youtube</span></a></p>
+                </div>
                 <div class="welcome-dash">
                     <img src="../dist/img/rose.png" alt="">
                     <h2>Seja Bem-Vindo(a)</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vitae dolore, repellendus eaque
                         voluptatibus amet cupiditate esse. Accusamus eum cumque iste odio perspiciatis. Eius porro
-                        recusandae, modi officia excepturi consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vitae dolore, repellendus eaque
+                        recusandae, modi officia excepturi consequatur. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Facilis vitae dolore, repellendus eaque
                         voluptatibus amet cupiditate esse. Accusamus eum cumque iste odio perspiciatis. Eius porro
                         recusandae, modi officia excepturi consequatur.</p>
                 </div>
@@ -59,29 +67,29 @@
                     <ul>
                         <li>
                             <a href="">
-                            <i class="far fa-clock"></i>
-                            <p>Horários de missas e confissões</p>
-                        </a>
+                                <i class="far fa-clock"></i>
+                                <p>Horários de missas e confissões</p>
+                            </a>
                         </li>
                         <li>
                             <a href="">
-                            <i class="fas fa-user-friends"></i>
-                            <p>Grupos e Pastorais</p>
-                        </a>
+                                <i class="fas fa-user-friends"></i>
+                                <p>Grupos e Pastorais</p>
+                            </a>
                         </li>
                         <li>
                             <a href="">
-                            <i class="fas fa-pray"></i>
-                            <p>Pedidos de oração</p>
-                        </a>
+                                <i class="fas fa-pray"></i>
+                                <p>Pedidos de oração</p>
+                            </a>
                         </li>
                         <li>
                             <a href="">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <p>Localização</p>
-                        </a>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Localização</p>
+                            </a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -89,23 +97,39 @@
         </div>
         <footer>
             <img src="../dist/img/rose.png" alt="">
-            <ul>
-                <li>
+            <ul class="control">
+                <li class="col-sm-4">
                     <h3>Sobre</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur hic eaque delectus, exercitationem modi eum minus ducimus dolor neque..Ler Mais</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur hic eaque delectus,
+                        exercitationem modi eum minus ducimus dolor neque..Ler Mais</p>
                 </li>
-                <li>
-                <div class="content-social">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
-                </div>  
+                <li class="col-sm-4">
+                    <div class="content-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
                 </li>
-                <li></li>
+                <li class="col-sm-4">
+                    <h4>Curta nossa página no Facebook</h4>
+                    <iframe
+                        src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsantateresinhasjc&width=108&layout=button&action=like&size=large&share=false&height=65&appId"
+                        width="108" height="65" scrolling="no" frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <style>
+                            div._3qw{
+                                display: none !important;
+                            }
+                        </style>
+                </li>
             </ul>
         </footer>
 
     </div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v9.0"
+        nonce="ydEKxqvo"></script>
     <script type="text/javascript" src="../vendor/slick-1.8.1/slick/slick.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../dist/js/frontpst.js"></script>
