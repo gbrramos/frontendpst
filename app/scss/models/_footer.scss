@@ -37,7 +37,7 @@ footer {
                 text-align: center;
                 iframe{
                     display: inline-block;
-                    margin-top: 40px;
+                    margin-top: 20px;
                 }
                 &::after{
                     display: none;
@@ -45,6 +45,7 @@ footer {
             }
 
             h3,h4 {
+                margin-top: 20px;
                 color: #fff;
             }
 
@@ -55,7 +56,15 @@ footer {
             a {
                 color: #fff;
                 font-size: 44px;
-                margin: 30px;
+                margin: 25px;
+                padding: 0px 5px;
+                border-radius: 10px;
+                transition: 0.2s all linear;
+                &:hover{
+                    background-color: $vermelho;
+                    color: #fff;
+                    transition: 0.2s all linear;
+                }
             }
             .content-social{
                 padding: 40px 0;
