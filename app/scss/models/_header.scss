@@ -2,6 +2,9 @@ header {
     background: url(../img/bg-rose3.jpg);
     background-size: cover;
     z-index: 1;
+    @include mq (tablet,max){
+        height: 130px;
+    }
     .bg-red{
         background-color: $vermelho;
         opacity: .8;
@@ -10,6 +13,4 @@ header {
         z-index: 1;
         position: absolute;
     }
-    
-
 }

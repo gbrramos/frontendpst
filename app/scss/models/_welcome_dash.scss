@@ -6,6 +6,9 @@
         right: 70px;
         bottom: -100px;
         opacity: .2;
+        @include mq (tablet,max){
+            right: -40px;
+        }
     }
 
     h2 {
@@ -27,5 +30,10 @@
 
     p {
         font-size: 20px;
+        @include mq (tablet,max){
+            max-width: 80%;
+            margin: 0 auto;
+            text-align: justify;
+        }
     }
 }
